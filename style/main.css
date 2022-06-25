@@ -1,0 +1,190 @@
+* {
+	padding: 0;
+	background: 0;
+}
+
+.containerCoinList {
+
+	background: none;
+	margin-top: 30px;
+	width: 82vw;
+	border: 4px solid rgb(94, 4, 104);
+	padding: 10px;
+}
+
+.containerCoinList h2 {
+
+	text-align: center;
+	border-bottom: 2px solid black;
+}
+
+.img_coin {
+	width: 60px;
+	height: 60px;
+	margin: 0 20px;
+}
+
+.leftDiv {
+	display: flex;
+	align-items: center;
+	border-bottom: 1px solid rgb(0, 0, 0);
+	margin-top: 10px;
+}
+
+.leftDiv p {
+	margin: 0 30px;
+}
+
+.divButtons {
+	display: flex;
+	align-items: center;
+
+}
+
+button {
+	margin: 0 10px;
+
+	padding: 10px 20px;
+	cursor: pointer;
+	max-width: 130px;
+}
+
+button:hover {
+	background: #bd7100;
+}
+
+button:active {
+	background: #4e4e4e;
+}
+
+.root {
+	position: relative;
+}
+
+.expertsDiv {
+	display: flex;
+	flex-direction: column;
+
+	position: absolute;
+	top: 100px;
+	right: 0px;
+	border: 2px solid black;
+	border-radius: 30px 30px 30px 30px;
+	padding: 30px;
+	background: rgb(174, 231, 235);
+	z-index: 1;
+}
+
+.expertsDiv input {
+	padding: 10px 20px;
+	margin-top: 10px;
+}
+
+.listexp {
+
+	max-width: 200px;
+}
+
+.containerCoinListExperts {
+
+	padding: 10px;
+	max-width: 96vw;
+	margin-top: 30px;
+
+
+	border: 4px solid rgb(11, 4, 104);
+	background: #dddddd;
+}
+
+.containerCoinListExperts .listexp {
+	width: 350px;
+
+}
+
+.containerCoinListExperts h2 {
+	text-align: center;
+	border-bottom: 2px solid black;
+
+
+}
+
+.divLogin {
+	border: 2px solid black;
+	width: 500px;
+	display: flex;
+	flex-direction: column;
+	padding: 30px;
+	border-radius: 30px;
+	align-items: center;
+	background: #fdc5fa;
+
+}
+
+.divLogin input {
+	width: 400px;
+	padding: 10px;
+	margin: 10px;
+}
+
+.love {
+	position: absolute;
+	top: -10px;
+	left: 40vw;
+	background: pink;
+	padding: 10px;
+	border-radius: 10px;
+	border: 2px solid red;
+}
+
+.del {
+	position: absolute;
+	top: -10px;
+	left: 40vw;
+	background: black;
+	color: white;
+	padding: 10px;
+	border-radius: 10px;
+	border: 2px solid red;
+}
+
+.divAdd {
+	position: absolute;
+	top: 80px;
+
+
+	border-radius: 30px;
+	border: 2px solid rgb(0, 0, 0);
+	padding: 30px;
+	background: rgb(34, 30, 30);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+
+.divAdd input {
+	border: 0;
+	width: 400px;
+	padding: 10px;
+	color: white;
+	margin-top: 10px;
+	border-bottom: 2px solid white;
+	font-size: 18px;
+}
+
+.divAdd button {
+	background: white;
+	color: black;
+	margin-top: 10px;
+
+}
+
+.divAdd button:hover {
+	background: rgb(71, 11, 11);
+	color: rgb(255, 255, 255);
+}
+
+.divAdd button:active {
+	background: rgb(255, 255, 255);
+	color: rgb(71, 11, 11);
+}
